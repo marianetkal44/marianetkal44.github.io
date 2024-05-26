@@ -1,0 +1,13 @@
+.card-img-container {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-container img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
